@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/cover.png" alt="Project Banner">
+  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/cover.png" alt="Project Banner">
   <br />
 
   <div>
@@ -9,15 +9,16 @@
     <img src="https://img.shields.io/badge/NativeWind-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="nativewind" />
   </div>
 
-  <h3 align="center">Video Sharing App</h3>
+  <h3 align="center">Aora – AI Video Sharing App</h3>
 </div>
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Overview
 
-Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite,
-this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community.
+Aora is a cross-platform mobile application that enables users to upload and share short AI-generated videos, along with the prompts used to create them. The app is designed to foster creativity and collaboration within a social environment.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Built with React Native and powered by Appwrite on the backend, Aora features smooth animations, a modern UI, and real-time content interaction.
+
+## ⚙️ Tech Stack
 
 - React Native
 - Expo
@@ -25,142 +26,42 @@ this app showcases impressive design and functionality, enabling seamless sharin
 - Animatable
 - Appwrite
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
-👉 **Onboarding Screen**: Engaging graphics and clear instructions welcome users to the app.
+- **Onboarding Screen**: Animated and user-friendly introduction for first-time users.
+- **Authentication & Authorization**: Secure email login and user session handling.
+- **Animated Home Screen**: Browse a dynamic list of AI-generated videos.
+- **Pull-to-Refresh**: Instantly update the feed with a swipe gesture.
+- **Full-Text Search**: Quickly find videos using keywords and suggestions.
+- **Tab Navigation**: Seamless transitions between Home, Search, and Profile.
+- **Media Upload**: Share AI-generated videos and the prompts behind them.
+- **User Profiles**: Track uploads, followers, and personal activity.
+- **Responsive Design**: Optimized across different screen sizes and devices.
+- **Smooth Animations**: Interactive UI enhancements using Animatable.
+- **Modular Architecture**: Scalable and reusable code components.
 
-👉 **Robust Authentication & Authorization System**: Secure email login safeguards user accounts.
+## 🖼️ App Preview
 
-👉 **Dynamic Home Screen with Animated Flat List**: Smoothly animated flat list showcases the latest videos for seamless browsing.
-
-👉 **Pull-to-Refresh Functionality**: Users can refresh content with a simple pull gesture for up-to-date information.
-
-👉 **Full-Text Search Capability**: Efficiently search through videos with real-time suggestions and instant results.
-
-👉 **Tab Navigation**: Navigate between sections like Home, Search, and Profile with ease using tab navigation.
-
-👉 **Post Creation Screen for Uploading Media**: Upload video and image posts directly from the app with integrated media selection.
-
-👉 **Profile Screen with Detailed Insights**: View account details and activity, including uploaded videos and follower count, for a personalized experience.
-
-👉 **Responsiveness**: Smooth performance and adaptability across various devices and screen sizes for a consistent user experience.
-
-👉 **Animations**: Dynamic animations using the Animatable library to enhance user interaction and engagement throughout the app's UI.
-
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/ansulagrawal/aora-app.git
-cd aora-app
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Adding ENV Variable**
-
-- create a `.env` file
-
-```
-EXPO_PUBLIC_APPWRITE_ENDPOINT=""
-EXPO_PUBLIC_APPWRITE_PLATFLORM=""
-EXPO_PUBLIC_APPWRITE_PROJECT_ID=""
-EXPO_PUBLIC_APPWRITE_DATABASE_ID=""
-EXPO_PUBLIC_APPWRITE_USER_COLLECTION_ID=""
-EXPO_PUBLIC_APPWRITE_VIDEO_COLLECTION_ID=""
-EXPO_PUBLIC_APPWRITE_STORAGE_ID=""
-```
-
-**Running the Project**
-
-```bash
-npm start
-```
-
-**Expo Go**
-
-Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
-
-**Preview of all pages**
-
-- Onboarding Page:
-  <br />
+- **Onboarding Page**  
   <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/onboarding.png" alt="Onboarding Page">
-  <br />
-  <br />
-- Sign Up Page:
-  <br />
-  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/signup.png" alt="Sign Up page">
-  <br />
-  <br />
-- Login Page:
-  <br />
+
+- **Sign Up Page**  
+  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/signup.png" alt="Sign Up Page">
+
+- **Login Page**  
   <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/login.png" alt="Login Page">
-  <br />
-  <br />
-- Home Page:
-  <br />
+
+- **Home Page**  
   <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/home.png" alt="Home Page">
-  <br />
-  <br />
-- Profile Page:
-  <br />
-  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/profile.png" alt="Proflie page">
-  <br />
-  <br />
-- Profile Empty State Page:
-  <br />
-  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/empty-state.png" alt="Profile Empty State Page">
-  <br />
-  <br />
-- Search Page:
-  <br />
+
+- **Profile Page**  
+  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/profile.png" alt="Profile Page">
+
+- **Empty Profile State**  
+  <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/empty-state.png" alt="Empty State">
+
+- **Search Page**  
   <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/search.png" alt="Search Page">
-  <br />
-  <br />
-- Create Page:
-  <br />
+
+- **Create Page**  
   <img src="https://raw.githubusercontent.com/ansulagrawal/aora-app/master/assets/pages/create.png" alt="Create Page">
-  <br />
-  <br />
-
-**Build**
-
-Create a account on [expo](https://expo.dev) then flow below steps:
-
-```bash
-npm install -g eas-cli && eas login
-```
-
-```bash
-expo init
-```
-
-```bash
-eas build:configure
-```
-
-For `Android`:
-
-```bash
-eas build -p android --profile preview
-```
